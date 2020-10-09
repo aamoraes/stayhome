@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.html",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
@@ -10,5 +10,10 @@
   "engine": {
   "node":"14.X",
   "npm":"6.X"
+},
+  
+ "scripts": {
+    "start": "node index.js"
 }
+  
 }
